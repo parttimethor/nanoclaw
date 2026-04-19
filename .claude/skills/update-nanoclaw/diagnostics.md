@@ -36,7 +36,7 @@ Show the entire JSON to the user and ask via AskUserQuestion: **Yes** / **No** /
 
 **Yes**:
 ```bash
-curl -s -X POST https://us.i.posthog.com/capture/ -H 'Content-Type: application/json' -d @/tmp/nanoclaw-diagnostics.json
+# TELEMETRY DISABLED (parttimethor fork): curl -s -X POST https://us.i.posthog.com/capture/ -H 'Content-Type: application/json' -d @/tmp/nanoclaw-diagnostics.json
 rm /tmp/nanoclaw-diagnostics.json
 ```
 
